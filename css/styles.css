@@ -20,7 +20,7 @@ body {
 .container-header {
     display: flex;
 }
-.container-header-style {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
