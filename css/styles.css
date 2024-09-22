@@ -26,6 +26,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.header-nav-style-line {
+    display: flex;
+    align-items: center; 
+}
 .logo-webstudio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -34,9 +38,28 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-span {
     color: #2e2f42;
+}
+.header-li-style-line-stodio {
+      display: flex;
+      margin-right: 40px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+}
+.header-li-style-line-portfolio {
+    display: flex;
+    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-li-style-line-contacts {
+    display: flex;
+    margin-right: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-style {
     font-weight: 500;
@@ -51,6 +74,17 @@ body {
 }
 .address-style {
     font-style: normal;
+}
+.ul-adress-style {
+    display: flex;
+}
+.li-adress-mail-style{
+    display: flex;
+    margin-right: 40px;
+}
+.li-adress-tel-style {
+    display: flex;
+    margin-right: 0;
 }
 .info-style {
     font-size: 16px;
