@@ -14,8 +14,17 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-.contriner-header {
- 
+.header-border {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container-header {
+    display: flex;
+}
+.container-header-style {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .logo-webstudio {
     font-family: "Raleway", sans-serif;
@@ -54,7 +63,7 @@ body {
 .info-style:focus {
     color: #404bbf;
 }
-.contriner-section-one {
+.container-section-one {
   
 }
 .section-one-style {
@@ -82,7 +91,7 @@ body {
 .section-one-button:focus {
     background-color: #404BBF;
 }
-.contriner-section-two {
+.container-section-two {
 
 }
 .section-two-title {
@@ -99,7 +108,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contriner-section-three {
+.container-section-three {
 
 }
 .section-three-style {
@@ -129,7 +138,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contriner-section-four {
+.container-section-four {
 
 }
 .section-four-title {
@@ -153,7 +162,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contriner-footer {
+.container-footer {
 
 }
 .footer-style {
