@@ -26,6 +26,13 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.ul-header {
+    display: flex;
+    gap: 40px;
+}
+   
+
+
 .header-nav-style-line {
     display: flex;
     align-items: center; 
