@@ -193,8 +193,10 @@ body {
 }
 .li-section-r {
     flex-basis: calc((100% - 72px) / 4);
-    border-top-right-radius: 4px;
-    border-bottom-left-radius:4px;
+    border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-top-right-radius: 4px;
+     border-bottom-left-radius:4px;
     margin-right: 24px;
 }
 .li-section-r:last-child {
@@ -249,8 +251,13 @@ body {
 .li-four-456 {
     margin-bottom: 0;
 }
-.formula4 {
+.formula-four {
     width: calc((100% - 48px) / 3);
+}
+.li-name-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .section-four-name {
     font-weight: 500;
@@ -258,6 +265,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    
 }
 .section-four-text {
     font-size: 16px;
