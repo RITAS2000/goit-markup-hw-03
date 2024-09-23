@@ -153,26 +153,28 @@ body {
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0;
+    white-space: nowrap;
+    border: 0;;
 }
 .ul-two-section {
     display: flex;
 }
+.calc {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .li-section-strategy {
     margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+   
 }
 .li-section-punctuality {
     margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    
 }
 .li-section-diligence {
     margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .li-section-technologies {
     margin-right: 0;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .section-two-title {
     font-weight: 500;
