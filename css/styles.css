@@ -194,15 +194,19 @@ body {
 .li-section:last-child {
     margin-right: 0;
 }
+.li-section {
+    flex-basis: calc((100% - 72px) / 4);
+    border-top-right-radius: 4px;
+    border-bottom-left-radius:4px;
+}
+
 .name-container{
     padding-top: 32px;
     padding-bottom: 32px;
 }
 .section-three-li {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
-    border-top-right-radius: 4px;
-    border-bottom-left-radius:4px;
+   
 }
 .section-three-name {
     font-weight: 500;
