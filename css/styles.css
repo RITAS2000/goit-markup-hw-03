@@ -191,10 +191,10 @@ body {
     display: flex;
     margin-right: 24px;
 }
-.li-section:last-child {
+.li-section-r:last-child {
     margin-right: 0;
 }
-.li-section {
+.li-section-r {
     flex-basis: calc((100% - 72px) / 4);
     border-top-right-radius: 4px;
     border-bottom-left-radius:4px;
