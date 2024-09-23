@@ -151,21 +151,11 @@ body {
 .ul-two-section {
     display: flex;
 }
-.calc {
+.li-section {
+    margin-right: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.li-section-strategy {
-    margin-right: 24px;
-   
-}
-.li-section-punctuality {
-    margin-right: 24px;
-    
-}
-.li-section-diligence {
-    margin-right: 24px;
-}
-.li-section-technologies {
+.li-section:last-child {
     margin-right: 0;
 }
 .section-two-title {
