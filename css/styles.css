@@ -172,6 +172,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 24px;
+    padding: 0;
 }
 .li-section-formula {
     width: calc((100% - 72px) / 4);
@@ -211,6 +212,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 24px;
+    padding: 0;
 }
 .li-section-three-formula {
     width: calc((100% - 72px) / 4);
@@ -263,6 +265,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
+    padding: 0;
 }
 .li-four:nth-child(4),
 .li-four:nth-child(5),
