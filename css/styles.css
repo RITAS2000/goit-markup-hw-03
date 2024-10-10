@@ -171,6 +171,7 @@ body {
 .ul-two-section {
     display: flex;
     list-style-type: none;
+    gap: 24px;
 }
 .li-section-formula {
     width: calc((100% - 72px) / 4);
@@ -209,6 +210,7 @@ body {
 .ul-section-three {
     display: flex;
     list-style-type: none;
+    gap: 24px;
 }
 .li-section-three-formula {
     width: calc((100% - 72px) / 4);
