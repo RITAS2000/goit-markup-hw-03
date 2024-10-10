@@ -172,8 +172,7 @@ body {
     display: flex;
     list-style-type: none;
 }
-.li-section {
-    margin-right: 24px;
+.li-section-formula {
     width: calc((100% - 72px) / 4);
 }
 .li-section:last-child {
@@ -209,13 +208,12 @@ body {
 }
 .ul-section-three {
     display: flex;
-    margin-right: 24px;
     list-style-type: none;
 }
-.li-section-r {
+.li-section-three-formula {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 24px;
+    
 }
 .li-section-r:last-child {
     margin-right: 0;
