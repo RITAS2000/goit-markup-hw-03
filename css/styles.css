@@ -53,31 +53,15 @@ body {
 .logo-span {
     color: #2e2f42;
 }
-.header-li-style-line-stodio {
-      display: flex;
-      margin-right: 40px;
-      padding-top: 24px;
-      padding-bottom: 24px;
-}
-.header-li-style-line-portfolio {
-    display: flex;
-    margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.header-li-style-line-contacts {
-    display: flex;
-    margin-right: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 .header-style {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin: 0;
     text-decoration: none;
 }
