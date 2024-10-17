@@ -20,6 +20,7 @@ body {
 .container-header {
     display: flex;
     justify-content: space-between;
+    height: 72px;
 }
 .container {
     width: 1158px;
@@ -31,6 +32,8 @@ body {
     display: flex;
     gap: 40px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .header-nav-style-line {
     display: flex;
@@ -45,6 +48,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    text-decoration: none;
 }
 .logo-span {
     color: #2e2f42;
@@ -73,6 +77,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
 .header-style:hover,
 .header-style:focus {
@@ -80,30 +87,26 @@ body {
 }
 .address-style {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.adress-position {
-  display: flex;
-  justify-content: space-between;
-}
+
 .ul-adress-style {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
     list-style-type: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.li-adress-mail-style{
-    display: flex;
-    margin-right: 40px;
-}
-.li-adress-tel-style {
-    display: flex;
-    margin-right: 0;
+    margin: 0;
+    padding: 0;
 }
 .info-style {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 
 }
 .info-style:hover,
@@ -114,16 +117,13 @@ body {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .container-section-one {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 48px;
 }
 .section-one-title {
     font-size: 56px;
@@ -173,6 +173,7 @@ body {
     list-style-type: none;
     gap: 24px;
     padding: 0;
+    margin: 0;
 }
 .li-section-formula {
     width: calc((100% - 72px) / 4);
@@ -213,6 +214,7 @@ body {
     list-style-type: none;
     gap: 24px;
     padding: 0;
+    margin: 0;
 }
 .li-section-three-formula {
     width: calc((100% - 72px) / 4);
@@ -266,6 +268,7 @@ body {
     row-gap: 48px;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 .li-four:nth-child(4),
 .li-four:nth-child(5),
@@ -320,4 +323,5 @@ body {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
 }
