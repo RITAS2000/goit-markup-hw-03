@@ -299,6 +299,7 @@ body {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    text-decoration: none;
 }
 .logo-span-footer {
     color: #f4f4fd;
